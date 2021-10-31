@@ -97,6 +97,15 @@ hr {
   opacity: 0.25;
 }
 
+.social{
+  max-width:100% !important;
+  width: 16% !important;
+}
+.centered-row{
+  margin: auto;
+  max-width: 60%;
+}
+
 hr:not([size]) {
   height: 1px;
 }
