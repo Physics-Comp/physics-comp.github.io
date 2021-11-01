@@ -108,18 +108,17 @@ hr {
 /* Changes to CSS Begining */
 .social {
   max-width: 100% !important;
-  width: 16% !important;
+  width: 15% !important;
 }
 .centered-row {
   margin: auto;
   max-width: 85%;
 }
-@media (min-width: 1100px) {
+@media (min-width: 800px) {
   .social_media {
-    margin-left: 160px;
+    margin-left: 16%;
   }
 }
-
 /* End to CSS changes */
 hr:not([size]) {
   height: 1px;
