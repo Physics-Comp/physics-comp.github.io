@@ -115,7 +115,7 @@ hr {
   max-width: 85%;
 }
 @media (min-width: 1100px) {
-  social_media {
+  .social_media {
     margin-left: 160px;
   }
 }
