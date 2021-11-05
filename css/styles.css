@@ -119,6 +119,9 @@ hr {
     margin-left: 16%;
   }
 }
+.menu-img {
+  padding-bottom: 10px;
+}
 /* End to CSS changes */
 hr:not([size]) {
   height: 1px;
