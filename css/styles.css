@@ -123,11 +123,24 @@ hr {
     display: none;
   }
 }
-.social-icon{
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+
+
+@media screen{
+  .social-icon{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+@media not screen{
+  .social-icon{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
 }
 
 .social {
@@ -136,7 +149,7 @@ hr {
 }
 .centered-row {
   margin: auto;
-  max-width: 85%;
+  max-width: 90%;
 }
 @media (min-width: 800px) {
   .social_media {
